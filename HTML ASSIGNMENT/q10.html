@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--  how can we club  two or more rows or columns into single row or column in an html table  -->
+      ans = in html tables . you can mearge cells using the rowspasn and colspan attrbutes
+      <br>
+      <b>merging columns</b>
+      <br>
+       to combain multple columns into a single cell use the 'colspan' attribute on the '<td>or</td>'element.
+       <br>
+         ex=
+         <br>
+           <table border ="2">
+             <tr>
+                <td colspan="5"> this cell span 3 columns </td>
+             </tr>
+             <tr>
+                <td>row 2,cell 2</td>
+                <td>row 2, cell 3</td>
+                <td>row 2 , cell 4</td>
+             </tr>
+       
+           </table>
+           <br>
+        
+           in this example , the first cell in the row span across three columns 
+           <br>
+           <b>merging row</b> 
+           <br>
+           to combaine multiple rows in to a single cell .use the 'rowspasn' attribute on the '<td> or 
+            "<th>" element.
+             <br>
+             example=
+             <br>
+               <table border ="1">
+                <tr>
+                    <td roWspan ="2">this cell spans 2 rows </td>
+                    <td>row 1 , cell 2 </td>
+                </tr>
+                <tr> 
+                    <td>row2 , cell 2 </td>
+                </tr>
+               </table> 
+               <br>
+               in this example ,the first cell in the first rownspans  across teo rows.
+               <br>
+              <b> combain both </b>
+              <br>
+              you can also use both attribute tpgether if you need to merge cell across both rows and columns.
+              <br>
+              example=
+              <br>
+              <table border ="1">
+                <tr>
+                    <td rowSpan="2" colspan="2" >this cell spans 2 rows and 2 columns</td>
+                    <td> row 1 , cell 3</td>
+
+                </tr>
+                <tr>
+                    <td>row 2, cell 2 </td>
+                   </tr>
+                   <tr>
+                    <td>row 3, cell 1</td>
+                    <td>row 3, cell  2</td>
+                    <td >row 3 , cell 3</td>
+                    
+                   </tr> 
+                
+                </tr>
+              </table>
+
+    
+
+
+
+           </body>
+</html>
